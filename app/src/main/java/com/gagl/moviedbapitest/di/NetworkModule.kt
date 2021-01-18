@@ -15,7 +15,7 @@ import javax.inject.Singleton
 @Module
 @InstallIn(ApplicationComponent::class)
 object NetworkModule {
-    private const val TMDB_KEY = "633c7f532b188983fa36af7dd8bd07a1"
+    private const val TMDB_KEY =
     private const val URL = "https://api.themoviedb.org/3/"
 
     @Provides

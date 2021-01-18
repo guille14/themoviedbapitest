@@ -1,4 +1,4 @@
-package com.memoteayuda.mtaandroid
+package com.gagl.moviedbapitest
 
 import org.junit.Test
 
