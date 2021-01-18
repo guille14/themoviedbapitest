@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Dark"/>
+    <style name="AppTheme.ToolbarOverlay" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="subtitleTextColor">@color/colorSubTitle</item>
+        <item name="colorControlNormal">@color/colorTitle</item>
+        <item name="searchViewStyle">@style/AppTheme.Toolbar.SearchView</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">@color/colorTitle</item>
+        <item name="subtitleTextColor">@color/colorSubTitle</item>
+        <!--<item name="android:background">@android:color/holo_green_dark</item>-->
+        <item name="android:gravity">center_vertical</item>
+        <!--<item name="android:minHeight">?attr/actionBarSize</item>-->
+        <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+        <item name="android:textColorSecondary">@color/colorTitle</item>
+        <item name="android:textColorHint">@color/colorSubTitle</item>
+        <item name="android:editTextColor">@color/colorTitle</item>
+        <item name="searchViewStyle">@style/AppTheme.Toolbar.SearchView</item>
+    </style>
+
+    <style name="AppTheme.Toolbar.SearchView" parent="Widget.AppCompat.Light.SearchView">
+        <!--<item name="queryBackground">@android:color/holo_green_light</item>-->
+        <!--<item name="searchIcon">@android:drawable/ic_menu_search</item>-->
+        <!--<item name="queryHint">@string/hint_filter_or_search</item>-->
+        <item name="searchHintIcon">@null</item>
+    </style>
+</resources>

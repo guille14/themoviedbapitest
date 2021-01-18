@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/topRatedMovies">
+
+    <fragment
+        android:id="@+id/topRatedMovies"
+        android:name="com.gagl.moviedbapitest.ui.movie.TopRatedMoviesGridFragment"
+        android:label="Top Rated Movies"
+        tools:layout="@layout/top_rated_movies_grid_fragment" />
+</navigation>
